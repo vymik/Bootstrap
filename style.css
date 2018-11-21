@@ -17,9 +17,9 @@ body {
 main{
     background-color: #f8f9fa;
 }
-/* .container-fluid{
+.container-fluid{
     padding: 0;
-} */
+}
 
 .pad-zero{
     padding: 0;
@@ -91,6 +91,11 @@ i{
 
 /* Blocks */
 
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
 img{
     width: 100%;
 }
@@ -138,10 +143,10 @@ footer p{
 }
 footer i{
     font-size: 2rem;
-    margin-left: 6%;
+    /* margin-left: 6%; */
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 750px){
     footer{
         text-align: center;
     }
